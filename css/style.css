@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(26, 163, 226);
+}
+p{
+	margin: 16px 0;
+}
+.contain{
+	max-width: 1130px;
+	margin: auto;
+}
+
+.navigation {
+	height: 55px;
+	padding-top: 16px;
+}
+
+.navigation::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.navigation > ul {
+	list-style: none;
+}
+.navigation > ul:first-child{
+	float: left;
+}
+.navigation > ul:last-child{
+	float: right;
+}
+
+.navigation > ul > li{
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.navigation a {
+	display: inline-block;
+	padding: 3px;
+	color: #272525;
+	font-size: 14px;
+}
+
+.header{
+	background: url('../img/lodging.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-left: 100%;
+	padding-top: 39.12%;
+	padding-top: calc(500/1278*100%);
+}
+
+.header__content{
+	position: absolute;
+	top: 30%;
+	left: 0%;
+	width: 100%;
+}
+
+.header__content h1,.header__content h6{
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+.header__content h1{
+	font-family: serif;
+	font-size: 36px;
+}
+
+.header__content h6{
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.guides{
+	background: #efefef;
+	padding-top: 40px;
+}
+
+.guides__image {
+	margin-top: -16px;
+}
+.guides__image img{
+	display: block;
+	width: 100%;
+	margin: 9.46%;
+	margin: calc(360/356*100% - 2*165/360*100%) 0;
+}
+
+.grid{
+	margin-left: -18px;
+	margin-right: -18px;
+}
+
+.grid::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.col-1-of-3{
+	width: 33%;
+	float: left;
+	padding: 0 18px;
+}
+
+#footer{
+	background: #f7f7f7;
+	padding: 60px 0 70px 0;
+}
